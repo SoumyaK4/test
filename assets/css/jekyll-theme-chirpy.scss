@@ -1,0 +1,23 @@
+---
+---
+
+@import 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+// hides hashtags in post headings, try without !important after none
+// .fa-hashtag:before {
+//     content: none !important;
+// }
+
+// replaces sidebar toggle icon on mobile, try without !important after \f00d
+body[sidebar-display] {
+    .fa-bars:before,
+    .fa-navicon:before {
+      content: '\f00d';
+    }
+}
