@@ -20,7 +20,7 @@ layout: compress
       "type": "image/png"
     }],
 
-   "screenshots": [
+  "screenshots": [
     {
       "src": "/chirpy-starter-mods/assets/img/post.png",
       "sizes": "1336x633",
@@ -44,11 +44,18 @@ layout: compress
       "sizes": "1336x633",
       "type": "image/png",
       "form_factor": "narrow"
-    }
-    ],
+    }],
   "id": "/index.html",
   "start_url": "{{ '/index.html' | relative_url }}",
   "theme_color": "#2a1e6b",
   "background_color": "#ffffff",
-  "display": "fullscreen"
+  "display": "fullscreen",
+  "shortcuts": [
+    {
+      "name": "Shortcut",
+      "short_name": "ShrtCut",
+      "description": "Testing shortcut",
+      "url": "/posts/text-and-typography/",
+      "icons": [{ "src": "/chirpy-starter-mods/assets/img/logo.webp", "sizes": "192x192" }]
+    }]
 }
