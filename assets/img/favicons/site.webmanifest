@@ -22,14 +22,26 @@ layout: compress
 
    "screenshots": [
     {
-      "src": "/assets/img/screenshot-wide.png",
-      "sizes": "1344x629",
+      "src": "/chirpy-starter-mods/assets/img/post.png",
+      "sizes": "1336x633",
       "type": "image/png",
       "form_factor": "wide"
     },
     {
-      "src": "/assets/img/screenshot-narrow.png",
-      "sizes": "338x622",
+      "src": "/chirpy-starter-mods/assets/img/home.png",
+      "sizes": "1336x633",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/chirpy-starter-mods/assets/img/home-m.png",
+      "sizes": "1336x633",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/chirpy-starter-mods/assets/img/sidebar.png",
+      "sizes": "1336x633",
       "type": "image/png",
       "form_factor": "narrow"
     }
