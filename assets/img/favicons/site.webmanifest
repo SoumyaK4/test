@@ -8,6 +8,7 @@ layout: compress
   "name": "{{ site.title }}",
   "short_name": "{{ site.title }}",
   "description": "{{ site.description }}",
+  "scope": "/chirpy-starter-mods",
   "icons": [
     {
       "src": "{{ favicon_path }}/android-chrome-192x192.png",
@@ -35,13 +36,13 @@ layout: compress
     },
     {
       "src": "/chirpy-starter-mods/assets/img/home-m.png",
-      "sizes": "1336x633",
+      "sizes": "344x619",
       "type": "image/png",
       "form_factor": "narrow"
     },
     {
       "src": "/chirpy-starter-mods/assets/img/sidebar.png",
-      "sizes": "1336x633",
+      "sizes": "344x619",
       "type": "image/png",
       "form_factor": "narrow"
     }],
@@ -55,7 +56,7 @@ layout: compress
       "name": "Shortcut",
       "short_name": "ShrtCut",
       "description": "Testing shortcut",
-      "url": "/posts/text-and-typography/",
-      "icons": [{ "src": "/chirpy-starter-mods/assets/img/logo.webp", "sizes": "192x192" }]
+      "url": "/chirpy-starter-mods/posts/text-and-typography/",
+      "icons": [{ "src": "{{ favicon_path }}/android-chrome-192x192.png", "sizes": "192x192" }]
     }]
 }
