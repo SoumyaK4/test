@@ -8,7 +8,7 @@ layout: compress
   "name": "{{ site.title }}",
   "short_name": "{{ site.title }}",
   "description": "{{ site.description }}",
-  "scope": "/chirpy-starter-mods",
+  "scope": "/",
   "icons": [
     {
       "src": "{{ favicon_path }}/android-chrome-192x192.png",
