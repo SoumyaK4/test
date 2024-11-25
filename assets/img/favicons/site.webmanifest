@@ -1,3 +1,9 @@
+---
+layout: compress
+---
+
+{% assign favicon_path = "/assets/img/favicons" | relative_url %}
+
 {
   "name": "{{ site.title }}",
   "short_name": "{{ site.title }}",
@@ -5,7 +11,8 @@
   "scope": "/",
   "start_url": "{{ '/index.html' | relative_url }}",
   "id": "/index.html",
-  "display": "fullscreen",
+  "display_override": ["window-control-overlay", "fullscreen","standalone"],
+  "display": "minimal-ui",
   "theme_color": "#2a1e6b",
   "background_color": "#ffffff",
   "icons": [
@@ -48,9 +55,9 @@
   ],
   "shortcuts": [
     {
-      "name": "Shortcut",
-      "short_name": "ShrtCut",
-      "description": "Testing shortcut",
+      "name": "Writing Guide",
+      "short_name": "Blogging",
+      "description": "Everything you need to know to create a post.",
       "url": "/posts/text-and-typography/",
       "icons": [{ "src": "{{ favicon_path }}/android-chrome-192x192.png", "sizes": "192x192" }]
     }
