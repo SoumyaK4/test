@@ -39,6 +39,9 @@ order: 4
 3. <a href="https://flexboxlabs.netlify.app/" target="_blank" rel="noopener noreferrer">Flexbox Labs</a>
 4. <a href="https://regex101.com/" target="_blank" rel="noopener noreferrer">Regex101</a>
 5. <a href="https://tinywow.com/" target="_blank" rel="noopener noreferrer">Tiny Wow</a>
+6. <a href="https://goodbrief.io/" target="_blank" rel="noopener noreferrer">Goodbrief</a>
+7. <a href="https://goodpalette.io/" target="_blank" rel="noopener noreferrer">Goodpalette</a>
+8. <a href="https://fakeclients.com/" target="_blank" rel="noopener noreferrer">Fakeclients</a>
 
 ### Learning Tools
 
